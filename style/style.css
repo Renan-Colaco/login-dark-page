@@ -114,14 +114,12 @@ body * {
 
 
 @media only screen and (max-width: 1200px){
-
     .card-login{
-        width: 85%;
+        width: 80%;
     }
 }
 
 @media only screen and (max-width: 600px){
-
     .main-login {
         flex-direction: column;
     }
@@ -133,7 +131,6 @@ body * {
     .left-login {
         width: 100%;
         height: auto;
-        padding-bottom: 30px;
     }
 
     .right-login {
