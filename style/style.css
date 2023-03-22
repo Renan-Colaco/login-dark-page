@@ -112,7 +112,7 @@ body * {
     box-shadow: 0px 10px 40px -12px #00ff8092;
 }
 
-@media only screen and (max-width: 950){
+@media only screen and (max-width: 1200){
     .card-login{
         width: 85%;
     }
