@@ -112,31 +112,29 @@ body * {
     box-shadow: 0px 10px 40px -12px #00ff8092;
 }
 
-@media only screen and (max-width: 950){
+@media only screen and (max-width: 1200px){
     .card-login{
         width: 85%;
     }
 }
 
-@media only screen and (min-width: 600){
-    .main-login{
+@media only screen and (max-width: 600px){
+    .main-login {
         flex-direction: column;
     }
-    .left-login > h1{
-        display: inline-block;
+
+    .left-login > h1 {
+        display: none;
     }
-    .left-login{
+
+    .left-login {
         width: 100%;
-        height: 40%;
+        height: auto;
+        padding-bottom: 30px;
     }
-    .right-login{
+
+    .right-login {
         width: 100%;
-        height: 40%;
-    }
-    .left-image{
-        width: 80vw;
-    }
-    .card-login{
-        width: 90%;
+        height: auto;
     }
 }
