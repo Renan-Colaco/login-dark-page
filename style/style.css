@@ -112,6 +112,110 @@ body * {
     box-shadow: 0px 10px 40px -12px #00ff8092;
 }
 
+.main-singup{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-singup{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-singup > h1 {
+    color: #77ffc0;
+    font-family: monospace;
+    font-size: 3vw;
+}
+
+.right-singup{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-singup{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-singup > h1 {
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.password {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.password > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 10pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+} 
+
+.password > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.password > input::placeholder{
+    color: #f0ffff94;
+
+}
+
+.btn-reg{
+    width: 100%;
+    padding: 16px 0%;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8092;
+}
+
+.btn-reg {
+    width: 60%; /* ou o valor desejado */
+    margin: 25px auto 0 auto; /* centraliza horizontalmente */
+    display: block;
+}
+
 
 @media only screen and (max-width: 1200px){
     .card-login{
